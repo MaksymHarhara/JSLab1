@@ -6,7 +6,7 @@ console.log ( Number.isInteger(1.5) );
 console.log ( Number.isInteger(-0.5) );
 
  
- function getPrimes(min, max){
+ function findPrimes(min, max){
 
 for (let i = min; i <= max; i++) { 
 
@@ -14,5 +14,5 @@ for (let i = min; i <= max; i++) {
  
 }
  }
- getPrimes(0, 5);
+ findPrimes(0, 5);
  
